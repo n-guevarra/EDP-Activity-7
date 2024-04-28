@@ -74,6 +74,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // gunaPanel1
             // 
@@ -658,12 +659,13 @@
             this.EditUserlabel.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditUserlabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(139)))), ((int)(((byte)(186)))));
             this.EditUserlabel.ImageKey = "(none)";
-            this.EditUserlabel.Location = new System.Drawing.Point(124, 0);
+            this.EditUserlabel.Location = new System.Drawing.Point(139, 0);
             this.EditUserlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.EditUserlabel.Name = "EditUserlabel";
             this.EditUserlabel.Size = new System.Drawing.Size(109, 28);
             this.EditUserlabel.TabIndex = 3;
             this.EditUserlabel.Text = "Edit User";
+            this.EditUserlabel.Click += new System.EventHandler(this.EditUserlabel_Click);
             // 
             // Form10Edit
             // 
