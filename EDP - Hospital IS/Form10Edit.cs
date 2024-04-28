@@ -163,6 +163,16 @@ namespace EDP___Hospital_IS
             form16.Show();
             this.Close();
         }
+
+        private void EditUserlabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
