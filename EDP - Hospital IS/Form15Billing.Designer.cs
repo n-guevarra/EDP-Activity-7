@@ -419,7 +419,7 @@
             this.backBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(242)))));
             this.backBtn.Image = null;
             this.backBtn.ImageSize = new System.Drawing.Size(20, 20);
-            this.backBtn.Location = new System.Drawing.Point(273, 323);
+            this.backBtn.Location = new System.Drawing.Point(273, 337);
             this.backBtn.Margin = new System.Windows.Forms.Padding(4);
             this.backBtn.Name = "backBtn";
             this.backBtn.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(139)))), ((int)(((byte)(186)))));
@@ -445,7 +445,7 @@
             this.AddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(242)))));
             this.AddBtn.Image = null;
             this.AddBtn.ImageSize = new System.Drawing.Size(20, 20);
-            this.AddBtn.Location = new System.Drawing.Point(123, 323);
+            this.AddBtn.Location = new System.Drawing.Point(123, 337);
             this.AddBtn.Margin = new System.Windows.Forms.Padding(4);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(139)))), ((int)(((byte)(186)))));

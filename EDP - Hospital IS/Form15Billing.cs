@@ -58,8 +58,6 @@ namespace EDP___Hospital_IS
                 // Execute a query to retrieve the AdmissionDate and DischargeDate of the patient with the given PatientID
                 string query = "SELECT AdmissionDate, DischargeDate FROM patients WHERE PatientID = @patientID";
 
-                
-                
                     using (MySqlCommand command = new MySqlCommand(query, database.mySqlConnection))
                     {
                         // Add the parameter for PatientID
@@ -68,7 +66,6 @@ namespace EDP___Hospital_IS
                         try
                         {
                            
-
                             // Execute the query
                             using (MySqlDataReader reader = command.ExecuteReader())
                             {
